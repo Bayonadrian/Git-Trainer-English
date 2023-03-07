@@ -1,27 +1,27 @@
-En este paso te mostrare a crear ramas dentro de git, normalmente cuando trabajas con otros programadores necesitas hacerlo en linea, mediante el repositorio de github y mediante ramas para que cada desarrollador pueda trabajar en su propia rama sin alterar constantemente la rama principal y por lo tanto el proyecto completo. Las ramas se crean mediante el comando:
+In this step I will show you how to create branches within git, normally when you work with other developers you need to do it online, through the github repository and through branches so that each developer can work on their own branch without constantly altering the main branch and therefore both the complete project. Branches are created using the command:
 
-- git branch <name>
+-git branch <name>
 
-En el espacio de "name" debe entrar el nombre de tu rama. Posteriormente si deseas emplear esta rama debes usar el comando:
+In the "name" space you must enter the name of your branch. Later if you want to use this branch you must use the command:
 
-- git checkout <name>
+-git checkout <name>
 
-Una vez mas en el espacio "name", se debe emplear el nombre de la rama. Si quieres ver en que rama te encuentras, puedes emplear el comando:
+Once again in the "name" space, the name of the branch must be used. If you want to see which branch you are in, you can use the command:
 
-- git branch
+-git branch
 
-Si deseas unir llevar el contenido de las ramas a la rama master debes emplear el comando:
+If you want to merge the content of the branches to the master branch you must use the command:
 
-- git merge <branch>
+-git merge <branch>
 
-Empleando el nombre de la rama en lugar de <branch>, de este modo lo recomendado es jalar la informacion de la otra rama dentro de la rama "master", de este modo lo recomendado es seguir estos pasos:
+Using the branch name instead of <branch>, in this way it is recommended to pull the information from the other branch into the "master" branch, in this way it is recommended to follow these steps:
 
-- git checkout master
+-git checkout master
 
-Entonces dentro de la rama "master" hacer lo siguiente:
+Then inside the "master" branch do the following:
 
-- git merge <branch>
+-git merge <branch>
 
-Si el procedimiento fuese al reves, dentro de la rama <branch>, jalando informacion de la rama "master", entonces se dejaria del lado la rama "master".
+If the procedure were reversed, inside the <branch> branch, pulling information from the "master" branch, then the "master" branch would be left out.
 
--> Continua en /stepSix(remote, push, pull)
+-> Continue at /stepSix(remote, push, pull)

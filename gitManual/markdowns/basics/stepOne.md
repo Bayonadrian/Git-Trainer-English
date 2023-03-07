@@ -1,18 +1,18 @@
-Para iniciar con git primeramente hay que decirle quienes somos, esto se da mediante los siguientes comandos:
+To start with git, we must first tell it who we are, this is done through the following commands:
 
 - $ git config --global user.name <name>
 - $ git config --global user.email <email>
 
-En lugar de <name>, debes registrar tu nombre, y en lugar de <email>, debes registrer tu email. Una vez hecho esto debes iniciar el repositorio, mediante el siguiente comando:
+Instead of <name>, you must register your name, and instead of <email>, you must register your email. Once this is done you must start the repository, using the following command:
 
-- git init
+-git init
 
-Esto genera un repositorio oculto en la carpeta, este repositorio se llama ".git".
+This generates a hidden repository in the folder, this repository is called ".git".
 
-Nota: Si es que deseas sacar un repositorio de github, lo que necesitas es usar el comando:
+Note: If you want to pull a github repository, you need to use the command:
 
-- git clone url
+-git clone url
 
-Poniendo la url del repositorio que deseas clonar.
+Putting the url of the repository you want to clone.
 
--> Continua en /stepTwo(status, add, commit)
+-> Continue at /stepTwo(status, add, commit)

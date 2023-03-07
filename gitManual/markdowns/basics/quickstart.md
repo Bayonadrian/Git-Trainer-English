@@ -1,7 +1,7 @@
-Bienvenido al inicio rapido, te recomiendo empezar con este video: https://youtu.be/HiXLkL42tMU, una vez lo hayas visto te doy una lista de pasos:
-- /stepOne -> Primer paso(config, init, clone)
-- /stepTwo -> Segundo paso(status, add, commit)
-- /stepTree -> Tercer paso(show, log, diff)
-- /stepFour -> Cuarto paso(reset, checkout)
-- /stepFive -> Quinto paso(branch, checkout, merge)
-- /stepSix -> Sexto paso(remote, push, pull)
+Welcome to the quick start, I recommend you start with this video: https://youtu.be/HiXLkL42tMU, once you have seen it I give you a list of steps:
+- /stepOne -> First step(config, init, clone)
+- /stepTwo -> Step Two(status, add, commit)
+- /stepTree -> Third step(show, log, diff)
+- /stepFour -> Fourth step(reset, checkout)
+- /stepFive -> Step Five(branch, checkout, merge)
+- /stepSix -> Sixth step(remote, push, pull)

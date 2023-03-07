@@ -1,33 +1,33 @@
-Una vez tengas el repositorio inicializado, emplea el comando:
+Once you have the repository initialized, use the command:
 
-- git status
+-git status
 
-Este comando te retornara el status del repositorio.
+This command will return the status of the repository.
 
-Luego puedes emplear el comando:
+Then you can use the command:
 
-- git add <file>
+-git add <file>
 
-para poder añadir documentos a tu repositorio, en el lugar de <file> debes poner el nombre del documento que desees añadir o en caso de que desees añadir todos los documentos de la carpeta, puedes emplear un ., de la siguiente forma:
+In order to add documents to your repository, in the place of <file> you must put the name of the document you want to add or in case you want to add all the documents in the folder, you can use a ., as follows:
 
-- git add .
+-git add .
 
-En este punto puedes volver a usar el comando:
+At this point you can use the command again:
 
-- git status
+-git status
 
-Este te dira el status del proceso, ahora no debes olvidar comentar este cambio para poder hacerlo efectivo, con el comando:
+This will tell you the status of the process, now you must not forget to comment on this change in order to make it effective, with the command:
 
-- git commit -m <commend>
+-git commit -m <commend>
 
-En lugar de <commend> debes registrar un comentario, jamas envies un commit sin un comentario. Una vez mas puedes ver el status:
+Instead of <commend> you should register a comment, never send a commit without a comment. Once again you can see the status:
 
-- git status
+-git status
 
-Si se guardaron cambios te dara un resultado como este:
+If changes were saved, it will give you a result like this:
 
 - "nothing to commit, working tree clean"
 
-Hasta aqui ya aprendiste a guardar documentos en un repositorio de git.
+So far you have already learned how to save documents in a git repository.
 
--> Continua en /stepTree(show, log, diff)
+-> Continue in /stepTree(show, log, diff)

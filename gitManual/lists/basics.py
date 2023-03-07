@@ -15,7 +15,7 @@ class basics(Enum):
     with open(startPath, 'r') as start:
 
         START = start.read()
-        GIT = 'Por cierto si no sabes que es git, te recomiendo este video: https://youtu.be/DinilgacaWs'
+        GIT = 'By the way, if you don\'t know what git is, I recommend this video: https://youtu.be/2ReR1YJrNOM'
 
     with open(quickstartPath, 'r') as quickstart:
 

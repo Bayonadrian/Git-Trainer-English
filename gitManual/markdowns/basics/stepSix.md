@@ -1,36 +1,36 @@
-En este paso te voy a enseñar a usar gitHub, git y github parecen lo mismo pero no lo son, git es un versionador, que inicialmente es local, mientras que github es un repositorio en la nube, para crear una cuenta y crear tu primer repositorio te recmiendo iniciar con el. Para poder subir tu repositorio en local a github, usa el formato:
+In this step I am going to teach you how to use gitHub, git and github look the same but they are not, git is a versioner, which is initially local, while github is a cloud repository, to create an account and create your first repository I recommend you start with it. In order to upload your local repository to github, use the format:
 
-- git remote add origin <url>
+-git remote add origin <url>
 
-El lugar de <url>, emplea el url del repositorio brindado por github. Una vez esto hecho si empleas el comando:
+Instead of <url>, use the url of the repository provided by github. Once this is done if you use the command:
 
-- git remote
+-git remote
 
-Recibes origin como respuesta, lo cual hace referencia a tu repositorio local, luego de esto puedes emplear el comando:
+You receive origin as a response, which refers to your local repository, after this you can use the command:
 
-- git remote -v
+-git remote -v
 
-Lo cual te retornara:
+Which will return you:
 
-- origin <url> (fetch)
-- origin <url> (push)
+-origin <url> (fetch)
+-origin <url> (push)
 
-Lo cual significa que puedes traer informacion de github mediante "fetch" o llevar informacion a github mediante "push". Otro comando bastante util y mas usado que "fetch" es el comando "pull", el cual se usa de la siguiente forma:
+Which means you can fetch information from github or push information to github. Another quite useful command and more used than "fetch" is the "pull" command, which is used as follows:
 
 - git pull origin master
 
-En caso de devolver un mensaje diciendo "fatal: refusing to merge unrelated stories"(esto indica que hay dos tipos de informacion diferentes entre el repositorio local y el repositorio de github), emplea el comando:
+In case of returning a message saying "fatal: refusing to merge unrelated stories" (this indicates that there are two different types of information between the local repository and the github repository), use the command:
 
 - git pull origin master --allow-unrelated-stories
 
-Para llevar informacion al repositorio de github te recomiendo emplear el comando:
+To take information to the github repository I recommend using the command:
 
-- git push origin master
+-git push origin master
 
-Nota: Tanto en push como pull se coloco master por que se trabaja en estos casos con la rama master, pero en caso de emplear otras ramas es posible ponerlas ahi en lugar de master, como por ejemplo de tener una rama llamada beta, esta se puede subir, empleando el comando:
+Note: Master was placed in both push and pull because it works in these cases with the master branch, but in case of using other branches it is possible to put them there instead of master, such as having a branch called beta, this will be You can go up, using the command:
 
 - git push origin beta
 
-Asi con esto ya puedes emplear github de forma basica, para tus proyectos personales.
+So with this you can use github in a basic way, for your personal projects.
 
-Nota: En este inicio rapido no te mostrare como generar llaves SSH pero te recomiendo ver ese tema para mejorar la seguridad de tu proyecto.
+Note: In this quick start I will not show you how to generate SSH keys but I recommend you to see that topic to improve the security of your project.

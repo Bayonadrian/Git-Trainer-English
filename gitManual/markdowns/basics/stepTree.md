@@ -1,18 +1,18 @@
-En este paso te mostrare como puedes analizar los cambios en tus proyectos de git.
-Primeramente puedes emplear el comando:
+In this step I will show you how you can analyze the changes in your git projects.
+First you can use the command:
 
-- git show
+-git show
 
-Este comando te mostrara los cambios realizados en el ultimo commit. Posteriormente puedes usar el comando:
+This command will show you the changes made in the last commit. Later you can use the command:
 
-- git log
+-git log
 
-Este comando te mostrara los commits hechos. Mediante el comando:
+This command will show you the commits made. Using the command:
 
-- git diff <first code> <second code>
+-git diff <first code> <second code>
 
-Al emplear el comando "log" te retorna una lista de commits, la cual posee un codigo, mediante el comando "diff" uno puede contrastar los cambios de dos diferentes commits, empleando el codigo dentro de "log", se recomienda emplear el codigo del commit mas viejo dentro de <first code> y el del commit con el que se quiere contrastar dentro de <second code>.
+Using the "log" command returns a list of commits, which has a code, using the "diff" command one can contrast the changes of two different commits, using the code inside "log", it is recommended to use the code of the oldest commit within <first code> and the commit you want to check against within <second code>.
 
-Nota: Estos son solo comandos independientes no es necesario que uses uno detras de otro, si aca tiene un orden es a motivo de ejemplo, nada mas.
+Note: These are only independent commands, it is not necessary that you use one after the other, if there is an order here it is for example, nothing more.
 
--> Continua en /stepFour(reset, checkout)
+-> Continue at /stepFour(reset, checkout)

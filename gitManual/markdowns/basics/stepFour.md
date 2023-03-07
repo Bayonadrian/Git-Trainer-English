@@ -1,18 +1,18 @@
-En este paso te enseñare como regresar al pasado, esto se da mediante el comando:
+In this step I will teach you how to return to the past, this is done through the command:
 
 - <code>git reset --hard </code>
 - <code>git reset --soft </code>
 
-Este comando emplea el codigo del commit que te da el comando "git log" en lugar de "code" y tambien emplea una opcion la cual puede ser "hard" o "soft", hard es mucho mas agresivo y elimina tambien los cambios que puedan estar dentro de "add", por eso te recomiendo emplearlo solo en el caso de querer regresar al pasado ya que tambien este comando elimirara, todos los commits hechos.
+This command uses the commit code that the "git log" command gives you instead of "code" and also uses an option which can be "hard" or "soft", hard is much more aggressive and also removes the changes that They may be inside "add", so I recommend you use it only in the case of wanting to go back to the past, since this command will also eliminate all the commits made.
 
-Otro comando a emplear para poder ver commits del pasado es el comando:
+Another command to use to be able to see past commits is the command:
 
 - <code> git checkout </code>
 
-Donde se emplea el codigo de "git log" en el lugar de las otras opciones, siendo asi este comando muestra el como se encontraba el proyecto en ese "commit", hay que tener bastante cuidado ya que si en ese momento se da un "commit" se perderian los nuevos cambios, por ultimo si deseas volver a como estaba todo antes del "checkout" emplea el comando:
+Where the "git log" code is used instead of the other options, thus this command shows how the project was in that "commit", you have to be very careful because if at that moment a " commit" the new changes would be lost, finally if you want to go back to how everything was before the "checkout" use the command:
 
-- git checkout master
+-git checkout master
 
-De este modo puedes "volver al presente".
+In this way you can "return to the present".
 
--> Continua en /stepFive(branch, checkout, merge)
+-> Continue at /stepFive(branch, checkout, merge)
